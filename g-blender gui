@@ -1,13 +1,38 @@
 from tkinter import*
 
-splash_root =Tk()
-splash_root.title("Splash Screen!")
+splash_root = Tk()
+splash_root.title("g-blender\n By: Pressure Junkies")
 splash_root.geometry("250x150")
 
-splash_label = Label(splash_root, text="Splash Screen!", font=("helvetica", 18))
-splash_label.pack
+splash_label = Label(splash_root, text="g-blender\n By: Pressure Junkies", font=("helvetica", 18))
+splash_label.pack(pady=20)
 
 def main_window():
+	splash_root.destroy()
+	root = Tk()
+	root.title("g-blender by Pressure Junkies")
+	root.iconbitmap()
+	root.geometry("500x300")
+
+splash_root.after(3000, main_window)
+
+mainloop()
+
+
+
+
+
+
+
+"""
+splash_root =Tk()
+splash_root.title("Splash Screen!")
+splash_root.geometry("500x300")
+
+splash_label = Label(splash_root, text="g-blender\n By: Pressure Junkies", font=("helvetica", 18))
+splash_label.pack
+
+def mainframe():
 	splash_root.destroy()
 	root = Tk()
 	root.title('New Project 1.0')
@@ -37,5 +62,18 @@ def main_window():
 
 
 #splash screen timer
-splash_root.after(3000, main_window)
-mainloop()
+splash_root.after(3000, mainframe)
+mainloop()"""
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+	
+ 
+
