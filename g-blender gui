@@ -64,16 +64,3 @@ def mainframe():
 #splash screen timer
 splash_root.after(3000, mainframe)
 mainloop()"""
- 
- 
- 
- 
- 
-
-
-
-
-
-	
- 
-
