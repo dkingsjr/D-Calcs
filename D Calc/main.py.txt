@@ -1,0 +1,20 @@
+from tkinter import *
+import os
+import random
+
+mainwindow=Tk()
+
+mainwindow.title('Dive Calcs')
+mainwindow.geometry("500x500")
+
+#frames
+
+#labels
+
+#buttons
+
+
+
+
+
+mainwindow.mainloop()

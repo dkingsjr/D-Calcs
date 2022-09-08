@@ -1,0 +1,10 @@
+#calculate SAC Rate...
+Fo2 = input("Enter Current o2:")
+Fn2 = input("Enter Current n2:")
+DFo2 = input("Enter Desired o2%:")
+DP = input("Enter Desired Tank Pressure:")
+r1 = (float(DFo2) / 100)
+r2 = (float(Fo2) / 100)
+r3 =  (float(Fn2) / 100)
+result = ((r1 - r2) * float(DP) / r3)
+print("Add", f"{result:.2f}", "PSI more o2")

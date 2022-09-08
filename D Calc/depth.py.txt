@@ -1,0 +1,15 @@
+def fswata
+#fsw to ata conversion
+depth = input("Enter Depth:")
+result = (float(depth)/33) + 1
+print(f"{result:.2f}","Total Atmospheres")
+
+def ffwata
+#ffw to ata
+depth = input("Enter Depth:")
+result = (float(depth)/34) + 1
+print(f"{result:.2f}","Total Atmospheres")
+
+ 
+ 
+ 

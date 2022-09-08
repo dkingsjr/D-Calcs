@@ -1,0 +1,22 @@
+#fractional pressures calculator
+tpress = input("Enter Tank Pressure:")
+Oxy = input("Enter o2 Percentage:")
+Nitro = input("Enter n2 Percentage:")
+Heli = input("Enter HE Percentage:")
+ 
+#convert to decimal
+r1 = (float(tpress) * (float(Oxy) / 100))
+r2= (float(tpress) * (float(Nitro) / 100))
+r3=  (float(tpress) * (float(Heli) / 100))
+ 
+if Oxy > "0":
+    print("Total O2 Pressure:", r1, "psi")
+ 
+if Nitro > "0":
+    print("Total N2 Pressure:", r2, "psi") 
+ 
+if Heli > "0":
+    print("Total He Pressure:", r3, "psi")
+ 
+#print("Total Gas Pressure:", result)
+#exit()
